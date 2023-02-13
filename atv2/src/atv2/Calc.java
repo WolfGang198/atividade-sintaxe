@@ -7,14 +7,16 @@ public class Calc {
     public int soma;
     
     public void soma(){
-        soma = a1 + numero;
-        a1 = soma;
-        numero++; 
+        System.out.print(this.numero);
+        System.out.print(" + 1 = ");
+        numero++;
+        System.out.print(numero);
+        System.out.println("");
     }
     
-    public void tot(){
-        System.out.println(soma);
-    }
+    //public void tot(){
+    //--    System.out.println(soma);
+    //}
     
     public int getNumero(){
     return numero;
